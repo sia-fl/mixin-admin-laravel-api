@@ -1,0 +1,15 @@
+parameters:
+    reportUnmatchedIgnoredErrors: false
+    ignoreErrors:
+        - '#has no return type specified#'
+        - '#should return*#'
+        - '#Call to an undefined method Illuminate\\Contracts\\Foundation\\Application*#'
+    paths:
+        - app
+        - config
+        - database
+        - routes
+    level: 6
+    customRulesetUsed: true
+    fileExtensions:
+        - php
