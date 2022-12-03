@@ -10,7 +10,8 @@
         "laravel/framework": "^9.2",
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7",
-        "pragmarx/yaml": "^1.2"
+        "pragmarx/yaml": "^1.2",
+        "ext-openssl": "*"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.12",
@@ -20,7 +21,6 @@
         "laravel/telescope": "^4.8",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
-        "phpstan/phpstan": "^1.5",
         "phpunit/phpunit": "^9.5.10",
         "spatie/laravel-ignition": "^1.0"
     },

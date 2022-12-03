@@ -14,3 +14,4 @@ yarn-error.log
 /.vscode
 _ide_helper*
 .phpstorm*
+composer.lock
