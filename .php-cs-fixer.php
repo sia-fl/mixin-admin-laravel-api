@@ -82,6 +82,7 @@ return (new PhpCsFixer\Config())
             ->exclude('public')
             ->exclude('storage')
             ->exclude('vendor')
+            ->exclude('_ide_helper.php')
             ->in(__DIR__)
     )
     ->setUsingCache(false);
